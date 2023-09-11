@@ -249,8 +249,7 @@ form {
 }
 
 /* 720p */
-@media (min-width: 720px) {
-  /* Add styles specific to 720p screens here */
+/* @media (min-width: 720px) {
   .container {
     flex-direction: column;
     width: 100%;
@@ -326,12 +325,11 @@ form {
     margin: 10px 0;
     width: 80%;
   }
-}
+} */
 
 
 /* iPad (2732x2048) */
-@media (min-width: 2732px) {
-  /* Add styles specific to iPad screens here */
+/* @media (min-width: 2732px) {
   .container {
     flex-direction: column;
     width: 100%;
@@ -407,5 +405,5 @@ form {
     margin: 10px 0;
     width: 80%;
   }
-}
+} */
 
