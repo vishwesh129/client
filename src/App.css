@@ -1,41 +1,4 @@
-/* .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 * {
   font-family: 'Exo 2', sans-serif;
@@ -99,7 +62,6 @@
 
 form {
   display: flex;
-
 }
 
 #email {
@@ -207,65 +169,322 @@ form {
 } 
 
 
+/* Common styles for all screen sizes */
 
+/* Mobile View (480p) */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
 
+  .left {
+    width: 90%;
+    margin: 0;
+  }
 
+  .ezlogo {
+    margin: 40px 20px;
+    width: 5%;
+  }
 
+  .sub_heading {
+    width: 100%;
+    margin: 20px 20px;
+    text-align: center;
+  }
 
+  .description{
+    width: 100%;
+    margin: 80px 20px;
+    text-align: center;
+  }
 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* .right>.card:nth-child(4),
-.right>.card:nth-child(5),
-.right>.card:nth-child(6) {
-  margin-top: -40px;
+  #email{
+    width: 100%;
+    margin: 80px 20px 10px 20px;
+  }
+  .button {
+    width: 100%;
+    margin: 0px 20px;
+  }
+
+  .mail1 {
+    margin: 0;
+  }
+
+  .error,
+  .success {
+    margin: 20px 20px;
+  }
+
+  .right {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .cards {
+    margin: 20px auto;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icon_heading {
+    margin: 0;
+  }
+
+  .part2 {
+    margin: 10px 0;
+  }
 }
 
-.cards {
-  margin-top: 256px;
-  margin-left: 71px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+/* 720p */
+@media (min-width: 720px) {
+  /* Add styles specific to 720p screens here */
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .left {
+    width: 90%;
+    margin: 0;
+  }
+
+  .ezlogo {
+    margin: 40px 40px;
+    width: 5%;
+  }
+
+  .sub_heading {
+    width: 100%;
+    margin: 20px 40px;
+    text-align: center;
+  }
+
+  .description{
+    width: 100%;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #email{
+    width: 100%;
+    margin: 80px 40px 10px 40px;
+  }
+  .button {
+    width: 100%;
+    margin: 0px 40px;
+  }
+
+  .mail1 {
+    margin: 0;
+  }
+
+  .error,
+  .success {
+    margin: 20px 40px;
+  }
+
+  .right {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .cards {
+    margin: 40px auto;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icon_heading {
+    width: 80%;
+    margin: 0;
+  }
+
+  .part2 {
+    margin: 10px 0;
+    width: 80%;
+  }
 }
 
-.card {
-  width: 311px;
-  height: 254px;
-  background: #112949 0% 0% no-repeat padding-box;
-  border-radius: 10px;
-  opacity: 1;
-  padding: 30px;
+/* 1080p */
+@media (min-width: 1080px) {
+  /* Add styles specific to 1080p screens here */
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .left {
+    width: 90%;
+    margin: 0;
+  }
+
+  .ezlogo {
+    margin: 40px 80px;
+    width: 5%;
+  }
+
+  .sub_heading {
+    width: 100%;
+    margin: 20px 40px;
+    text-align: center;
+  }
+
+  .description{
+    width: 100%;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #email{
+    width: 100%;
+    margin: 80px 40px 10px 40px;
+  }
+  .button {
+    width: 100%;
+    margin: 0px 40px;
+  }
+
+  .mail1 {
+    margin: 0;
+  }
+
+  .error,
+  .success {
+    margin: 20px 40px;
+  }
+
+  .right {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .cards {
+    margin: 40px auto;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icon_heading {
+    width: 80%;
+    margin: 0;
+  }
+
+  .part2 {
+    margin: 10px 0;
+    width: 80%;
+  }
 }
 
-.part1 {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+/* iPad (2732x2048) */
+@media (min-width: 2732px) {
+  /* Add styles specific to iPad screens here */
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .left {
+    width: 90%;
+    margin: 0;
+  }
+
+  .ezlogo {
+    margin: 40px 80px;
+    width: 5%;
+  }
+
+  .sub_heading {
+    width: 100%;
+    margin: 20px 40px;
+    text-align: center;
+  }
+
+  .description{
+    width: 100%;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #email{
+    width: 100%;
+    margin: 80px 40px 10px 40px;
+  }
+  .button {
+    width: 100%;
+    margin: 0px 40px;
+  }
+
+  .mail1 {
+    margin: 0;
+  }
+
+  .error,
+  .success {
+    margin: 20px 40px;
+  }
+
+  .right {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .cards {
+    margin: 40px auto;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icon_heading {
+    width: 80%;
+    margin: 0;
+  }
+
+  .part2 {
+    margin: 10px 0;
+    width: 80%;
+  }
 }
 
-.icon {
-  width: 58px;
-  height: 58px;
-  opacity: 1;
-}
-
-.icon_heading {
-  width: 173px;
-  height: 58px;
-  text-align: left;
-  letter-spacing: 0px;
-  color: #3CC3F2;
-  opacity: 1;
-  font-size: 24px;
-}
-
-.part2 {
-  width: 251px;
-  height: 116px;
-  text-align: left;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
-  font-size: 24px;
-  line-height: 29px;
-} */
