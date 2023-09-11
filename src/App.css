@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,237 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  font-family: 'Exo 2', sans-serif;
 }
+
+.container {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.left {
+  width: 800px;
+}
+
+/* div {
+  border: 1px solid black;
+} */
+
+.ezlogo {
+  margin-top: 256px;
+  margin-left: 40px;
+  width: 517px;
+  height: 145px;
+  /* UI Properties */
+  /* background: transparent url('img/EZ Works Blue.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+
+.sub_heading {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 756px;
+  height: 58px;
+  /* UI Properties */
+  text-align: left;
+  /* font: normal normal normal 48px/58px Exo 2.0; */
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  font-size: 48px;
+}
+
+.description {
+  margin-top: 73px;
+  margin-left: 40px;
+  width: 760px;
+  height: 114px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 32px/38px Exo 2.0;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  font-size: 32px;
+}
+
+form {
+  display: flex;
+
+}
+
+#email {
+  margin-top: 40px;
+  /* margin-left: 40px; */
+  width: 514px;
+  height: 78px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #ABABAB;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 32px;
+
+}
+
+.mail1 {
+  margin-bottom: 276px;
+  margin-left: 40px;
+}
+
+.button {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 213px;
+  height: 78px;
+  /* UI Properties */
+  background: #EA7B2C 0% 0% no-repeat padding-box;
+  border: 1px solid #EA7B2C;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 32px;
+  color: white;
+}
+
+.error {
+  color: red;
+  /* margin-left: 40px; */
+  font-size: 20px;
+}
+
+.success {
+  color: green;
+  /* margin-left: 40px; */
+  font-size: 20px;
+
+}
+
+
+/* Right side CSS  */
+
+.right {
+  width: 1124px;
+}
+ .cards {
+  margin-top: 256px;
+  margin-left: 71px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+
+.card {
+  width: 75.5%;
+  height: 200px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 30px;
+}
+
+
+.part1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icon {
+  width: 58px;
+  height: 58px;
+  opacity: 1;
+}
+
+.icon_heading {
+  width: 173px;
+  text-align: left;
+  color: #3CC3F2;
+  font-size: 24px;
+  margin: -30px 0 -30px 0;
+}
+
+.part2 {
+  width: 251px;
+  height: 116px;
+  margin-top: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 60px;
+} 
+
+
+
+
+
+
+
+
+
+/* .right>.card:nth-child(4),
+.right>.card:nth-child(5),
+.right>.card:nth-child(6) {
+  margin-top: -40px;
+}
+
+.cards {
+  margin-top: 256px;
+  margin-left: 71px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card {
+  width: 311px;
+  height: 254px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 30px;
+}
+
+.part1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icon {
+  width: 58px;
+  height: 58px;
+  opacity: 1;
+}
+
+.icon_heading {
+  width: 173px;
+  height: 58px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #3CC3F2;
+  opacity: 1;
+  font-size: 24px;
+}
+
+.part2 {
+  width: 251px;
+  height: 116px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 24px;
+  line-height: 29px;
+} */
